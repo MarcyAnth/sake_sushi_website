@@ -1,0 +1,78 @@
+<%- include("partials/header") -%>
+<section class="reservesection">
+  <h2 class="mt-5">Reservations</h2>
+  <div class="underline"></div>
+           <div class = "card-container">
+               <div class = "card-img">
+
+               </div>
+
+               <div class = "card-content">
+                   <h3>Reservation</h3>
+                   <form>
+                       <div class = "form-row">
+                           <select name = "days">
+                               <option value = "day-select">Select Day</option>
+                               <option value = "sunday">Sunday</option>
+                               <option value = "monday">Monday</option>
+                               <option value = "tuesday">Tuesday</option>
+                               <option value = "wednesday">Wednesday</option>
+                               <option value = "thursday">Thursday</option>
+                               <option value = "friday">Friday</option>
+                               <option value = "saturday">Saturday</option>
+                           </select>
+
+                           <select name = "hours">
+                               <option value = "hour-select">Select Hour</option>
+                               <option value = "10">10: 00</option>
+                               <option value = "10">12: 00</option>
+                               <option value = "10">14: 00</option>
+                               <option value = "10">16: 00</option>
+                               <option value = "10">18: 00</option>
+                               <option value = "10">20: 00</option>
+                               <option value = "10">22: 00</option>
+                           </select>
+                       </div>
+
+                       <div class = "form-row">
+                           <input type = "text" placeholder="Full Name">
+                           <input type = "text" placeholder="Phone Number">
+                       </div>
+
+                       <div class = "form-row">
+                           <input type = "number" placeholder="People" min = "1">
+                           <input type = "submit" value = "Book">
+                       </div>
+                   </form>
+               </div>
+           </div>
+
+           <div class = "card-container mb-5">
+               <div class = "google-img">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.65391138126!2d-0.1196111840278673!3d51.51956511763428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b35ff31244d%3A0x917939859629e023!2s50%20Red%20Lion%20St%2C%20London%20WC1R%204PF!5e0!3m2!1sen!2suk!4v1654458889275!5m2!1sen!2suk" width="420" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
+
+               <div class = "card-content">
+                 <h3 class="mt-5">Address</h3>
+                 <p>50 Red Lion St, High Holborn, London WC1R 4PF</p>
+                 <h3>Have any queries?</h3>
+                 <p><i class="fa-solid fa-phone"></i> Call us on: +44 1248201032</p>
+
+
+
+
+
+
+               </div>
+           </div>
+
+
+
+
+
+
+
+</section>
+
+
+<%- include("partials/footer") -%>
